@@ -85,7 +85,7 @@ When choosing a symbol, use the English letter O, not the digit 0.
 | File | Description |
 |---|---|
 | `tictactoe.py` | Corrected game covered by the instructions above |
-| `main.py` | Additional Python file retained from the original project |
+| `main.py` | Original game script; startup checked successfully without modifications |
 | `README.md` | Project description, setup instructions, and game rules |
 | `LICENSE` | Original project license |
 | `.gitignore` | Rules for excluding temporary and local files from Git |
