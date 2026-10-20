@@ -157,15 +157,31 @@ Congratulations ! Player X has won !
 Do you want to keep playing (Y or N)?
 ```
 
-The checks above describe the results captured during the recorded runs. Separate results for selecting O, a draw, restarting, and exiting should be recorded before final submission.
+Additional manual checks confirmed the following results:
 
-## Screenshot Evidence
+| Check | Result |
+|---|---|
+| Selection of O | Player 1 received O and could make the first move |
+| New game | Entering Y started another round with a reset board |
+| Draw detection | A full board without a winner produced the draw message |
+| Exit | Entering N ended the program and returned control to PowerShell |
+### Selection of O and a new game
 
-Screenshots will be added separately:
+After the previous game, entering Y starts a new round. Selecting O assigns it to Player 1, and the board resets to cells 1–9.
 
-1. Initial execution showing the TypeError.
-2. Successful startup after corrections.
-3. A working game showing the winning board and victory message.
+![Selection of O and a new game](screenshots/04_o_and_new_game.png)
+
+### Draw detection
+
+The move sequence 1, 2, 3, 5, 4, 6, 8, 7, 9 fills the board without a winning combination. The game announces a draw.
+
+![Draw detection](screenshots/05_draw.png)
+
+### Exiting the game
+
+Entering N at the replay prompt ends the program and returns control to PowerShell.
+
+![Exiting the game](screenshots/06_exit.png)
 
 ## Separate Startup Check of main.py
 
