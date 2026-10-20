@@ -166,3 +166,13 @@ Screenshots will be added separately:
 1. Initial execution showing the TypeError.
 2. Successful startup after corrections.
 3. A working game showing the winning board and victory message.
+
+## Separate Startup Check of main.py
+
+The original `main.py` was also launched through the Visual Studio Code debugger using F5.
+
+Result: the game started and displayed its interactive prompt. No startup error was observed, and no changes to `main.py` were required.
+
+This check confirms startup only. It does not establish that every gameplay scenario in `main.py` has been tested.
+
+The errors and corrections described earlier in this report apply to `tictactoe.py`.
